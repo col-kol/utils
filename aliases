@@ -1,0 +1,38 @@
+# aliases
+
+alias c="clear"
+alias cl="clear"
+
+alias la="ls -a"
+alias l='ls'
+alias ll="ls -l"
+
+# git
+alias gs='git status'
+alias gbranch='git branch'
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# get dimesions of single img_file, usage: get_dims img_file
+alias dimensions_of='ffprobe -v error -select_streams v -show_entries stream=width,height -of csv=p=0:s=x'
+
+# mac specific aliases
+alias cores="sysctl -n hw.ncpu"
+
+# other apps
+alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+
+
+
+
+
+
+
+
+
+
+
+
+
